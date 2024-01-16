@@ -606,9 +606,49 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px;}
+    line-height: 20px;
+  }
+
+/* =========================== */
+
+.tourStart1 {
+  background-color: #FF5400;
+  width: 86vw;
+  height: 80vh;
+  margin: auto;
+  border-radius: 16px;
+  margin-top: 200px;
+  background-image: url(img/discount\ 1\ and\ 3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+.blank1 {
+  width: 70vw;
+  height: 60vh;
+  ?
+  margin: auto;
+  display: flex;
+  }
 
 
+
+.tourbalnk1 {
+  width: 40%;
+  height: 100%;
+  
+
+}
+.tourInfo1 {
+  width: 60%;
+  height: 100%;
+  border-radius: 16px;
+  border: 2px solid #FFF;
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(2.5px);
+}
 
 
 
@@ -946,6 +986,9 @@
       padding-bottom: 30px;}
 
 /* ============================ */
+
+
+
 
 
 
