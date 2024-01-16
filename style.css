@@ -1,0 +1,633 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900;1000&display=swap');
+
+  /* font-family: 'Mulish', sans-serif; */
+
+
+
+  /* navbar start */
+
+  header {
+    /* position: fixed; */
+    top: 0; left: 0; right: 0;
+    /* background: rebeccapurple; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    width: 85vw;
+   
+  }
+  .titel{
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+  }
+
+
+
+
+  .label {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 85vw;
+  }
+
+  .logo {
+    align-items: first baseline;
+  }
+
+  .traveler {color: #FF5400;}
+
+  header .navbar ul {
+    list-style: none;
+
+  }
+
+  header .navbar ul li {
+    position: relative;
+    float: left;
+  }
+
+  header .navbar ul .listItems{
+    font-size: 20px;
+    padding: 20px;
+    color: #424247;
+    display: block;      
+  }
+  
+  /* Cover img  */
+
+  .exptravel {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 5vw;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 10%;
+        
+  }
+  .expTravelDescription {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    
+  }
+
+.dropdownMenu {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.30);
+  width: 70%;
+  height: 15%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 16px;
+  align-items: center;
+  gap: 24px;
+  margin: auto;
+}
+#dropdown , #findNow {
+  border-radius: 8px;
+  background: #FFF;
+  padding: 20px 45px;
+  color: rgba(19, 19, 24, 0.50);
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: start;
+
+}
+#findNow {
+  background: #FF5400;
+  color: #FFF;
+  padding: 18px 65px;
+
+
+}
+
+  .cover {
+    width: 100vw;
+    height: 100vh;
+
+  }
+ 
+  .coverImg {
+    background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url(img/Cover.png);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    width: 85vw;
+    height: 70vh;
+    margin: auto;
+    
+  }
+
+/* Cover img  */
+
+
+  /* Popular Tours */
+
+  .popular {
+    width: 40vw;
+    height: 70vh;
+    margin: auto;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    
+  }
+
+  .button1 {
+   
+    padding: 10px;
+    text-align: left;
+}
+.readMore {
+  background-color: #FF5400;
+  color: #fff;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  cursor: pointer;
+ }
+ 
+ .tourText {
+  color: #131318;
+  text-align: left;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-bottom: 2%;
+}
+
+.listCl {
+  margin-bottom: 3vh;
+  color: rgba(19, 19, 24, 0.70);
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.listHead {
+  margin-bottom: 3vh; 
+}
+.listEnd {
+  margin-bottom: 3vh; 
+}
+
+
+
+
+
+  .mountain {
+    border-radius: 16px;
+    background: url(img/Mountain.png), lightgray 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #FF5400;
+    width: 40vw;
+    height: 80vh;
+    margin: auto;
+  }
+  
+  .popularTours {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90vw;
+    margin: 10vh auto;
+  }
+
+ /* Popular Tours */
+
+
+ /* Choose Your Destination start */
+
+
+.destinationInfo {
+  text-align: center;
+}
+
+.yourDestination {
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 800;
+  padding-bottom: 20px;}
+
+.yourInfo {
+  color: rgba(19, 19, 24, 0.70);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-bottom: 30px;
+}  
+
+.maldives {border-radius: 16px;
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(img/Maldives.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: aqua; */
+  width: 42vw;
+  height: 38vh;
+}
+.maldivesTitel {
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-top: 20%;
+}
+.indonesia {border-radius: 16px;
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(img/Indonesia.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: aqua; */
+  width: 42vw;
+  height: 38vh;
+}
+.indonesiaTitel {
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-top: 20%;
+}
+.flexPic1 {
+  width: 85vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.srilanka {border-radius: 16px;
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(img/Srilanka.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* background-color: aqua; */
+  width: 23vw;
+  height: 38vh;
+}
+.srilankaTitel {
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-top: 38%;
+}
+.northAmerica {border-radius: 16px;
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(img/NorthAmerica.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: aqua; */
+  width: 40vw;
+  height: 38vh;
+}
+.northAmericaTitel {
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-top: 23%;
+}
+.kashmir {border-radius: 16px;
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(img/Kashmir.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: aqua; */
+  width: 20vw;
+  height: 38vh;
+}
+.kashmirTitel {
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-top: 46%;
+}
+.flexPic2 {
+  width: 85vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.bangladesh {border-radius: 16px;
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(img/Bangladesh.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: aqua; */
+  width: 32vw;
+  height: 38vh;
+}
+.bangladeshTitel {
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-top: 23%;
+}
+.bandarban {border-radius: 16px;
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(img/Bandarban.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: aqua; */
+  width: 52vw;
+  height: 38vh;
+}
+.bandarbanTitel {
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-top: 17%;
+}
+.flexPic3 {
+  width: 85vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 640px) {
+    
+    /* banner */
+
+    .exptravel {
+      color: #FFF;
+      font-family: Mulish;
+      font-size: 6vw;
+      font-weight: 800;
+      text-align: center;
+      padding-top: 10%;
+          
+    }
+    .expTravelDescription {
+      color: #FFF;
+      text-align: center;
+      font-family: Mulish;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px;
+      padding-top: 25px;
+      
+    }
+
+
+    .dropdownMenu {
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.30);
+      width: 90%;
+      height: 60%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      padding-top: 10px;
+      padding: 20px ;
+      align-items: center;
+      gap: 10px;
+      margin: auto;
+    }
+
+    #dropdown , #findNow {
+      border-radius: 8px;
+      background: #FFF;
+      padding: 4vw 10vh;
+      color: rgba(19, 19, 24, 0.50);
+      font-family: Mulish;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      text-align: start;
+    
+    }
+    #findNow {
+      background: #FF5400;
+      color: #FFF;
+      padding: 4vw 12vh;
+    
+    
+    }
+
+
+
+    
+    .cover {
+      width: 100vw;
+      height: 70vh;
+    }
+    .coverImg {
+      
+      width: 86vw;
+      height: 75vh;
+      margin: auto;
+      border-radius: 24px;
+    }
+    /* banner */
+    
+
+
+
+
+     /* Popular Tours */
+    .popularTours {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 87vw;
+      height: 70%;
+      margin: 10vh auto;
+    }
+    .tourText {
+      color: #131318;
+      text-align: left;
+      font-family: Mulish;
+      font-size: 30px;
+      font-style: bold;
+      font-weight: 800;
+      
+    }
+
+    .mountain {
+    border-radius: 16px;
+    width: 87vw;
+    height: 40vh;
+    
+  }
+
+  .popular {
+    width: 87vw;
+    height: 90vh;
+   
+  }
+}
+
+.desktop {
+  display: none;
+}
+
+.mobile {
+  display: block;
+}
+
+.yourDestination {
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  padding-bottom: 20px;}
+
+
+.yourInfo {
+  color: rgba(19, 19, 24, 0.70);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-bottom: 30px;
+}  
+
+.maldives1 , .indonesia1 , .srilanka1, .northAmerica1 , .kashmir1 , .bangladesh1 , .bandarban1 {
+  background-color: #FF5400;
+  width: 86vw;
+  height: 25vh;
+  border-radius: 16px;margin: auto;
+  margin-bottom: 20px;
+  
+}
+
+.maldives1 {
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('img/NorthAmerica.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  ;
+}
+
+.indonesia1 {
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(img/Indonesia.png);
+  background-repeat: no-repeat;
+  background-size: cover;}
+.srilanka1 {
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(img/Srilanka.png);
+  background-repeat: no-repeat;
+  background-size: cover;}
+.northAmerica1 {
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(img/NorthAmerica.png);
+  background-repeat: no-repeat;
+  background-size: cover;}
+.kashmir1 {
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(img/Kashmir.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 90%;
+}
+.bangladesh1 {
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(img/Bangladesh.png);
+  background-repeat: no-repeat;
+  background-size: cover;}
+.bandarban1 {
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(img/Bandarban.png);
+  background-repeat: no-repeat;
+  background-size: cover;}
+
+  .maldivesTitel1 , .indonesiaTitel1 , .srilankaTitel1, .northAmericaTitel1 , .kashmirTitel1 , .bangladeshTitel1 , .bandarbanTitel1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 15px;
+    font-weight: 700;
+    padding-top: 80px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 642px) {
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
+  }
+}
