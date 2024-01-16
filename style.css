@@ -653,8 +653,9 @@
 .dayNight1 img,
 .max1 img,
 .location1 img {
-  width: 24px;
-  height: 24px;
+  
+  width: 25px;
+  height: 25px;
 }
 
 .dayNight1,
@@ -663,7 +664,65 @@
   font-size: 24px;
   display: flex;
   align-items: center;
+  padding: 0px 20px;
+  
 }
+
+.iconsAndText {
+  padding-left: 30px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: flex-start;
+
+}
+
+.tourToSatorini {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-weight: 800;
+  padding-left: 50px;
+  padding-top: 50px;
+  
+}
+.tourToSatoriniinfo {
+  color: #5A5A5D;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  width: 50%;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+.Price2 {
+  color: #FF5400;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  width: 50%;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+.booknowbtn {
+  background-color: #FF5400;
+  color: #fff;
+  padding: 15px 35px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  }
+  .booknowbtnDiv {
+    padding-left: 50px;
+    padding-top: 20px;
+  }
+
 
 
 .tourStart2 {
