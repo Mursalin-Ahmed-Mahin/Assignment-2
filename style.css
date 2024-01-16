@@ -439,7 +439,7 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 10px;}
+  line-height: 20px;}
 
 
 
@@ -709,6 +709,35 @@
     height: 90vh;
    
   }
+
+  .whyUsTitel {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-bottom: 30px;
+  }
+
+
+
+  .whyUsInfo {
+    width: 86vw;
+    margin: auto;
+    text-align: center;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;}
+
+
+
+
 .card12{
   /* background-color: #FF5400; */
   width: 86vw;
@@ -824,6 +853,8 @@
     
     .yourInfo {
       color: rgba(19, 19, 24, 0.70);
+      width: 86vw;
+      margin: auto;
       text-align: center;
       font-family: Mulish;
       font-size: 15px;
