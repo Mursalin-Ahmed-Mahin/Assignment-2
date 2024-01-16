@@ -579,6 +579,44 @@
 
 
 
+    /* Deals & Discounts Start */
+
+    .deals {
+      width: 60vw;
+      height: 20vh;
+      margin: auto;
+      padding-top: 200px;
+      text-align: center;
+    }
+    .dealstittle {
+      color: #131318;
+      text-align: center;
+      font-family: Mulish;
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+    padding-bottom: 20px;
+  }
+
+  .dealsInfo {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;}
+
+
+
+
+
+
+
+    
+    /* Deals & Discounts End */
+
 
 
 
@@ -863,6 +901,59 @@
       padding-bottom: 30px;
     }
 
+
+
+     /* Deals and siscount */
+
+     .deals {
+      width: 86vw;
+      height: 20vh;
+      margin: auto;
+      text-align: center;
+      margin-top: -300px;
+    }
+    .dealstittle {
+      color: #131318;
+      text-align: center;
+      font-family: Mulish;
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+    padding-bottom: 20px;
+  }
+
+  .dealsInfo {
+    width: 86vw;
+    margin: auto;
+    text-align: center;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;;}
+
+    .dealstittle {
+      color: #131318;
+      text-align: center;
+      font-family: Mulish;
+      font-size: 35px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      padding-bottom: 30px;}
+
+/* ============================ */
+
+
+
+
+
+
+
+     /* Deals and siscount */
 
 
 
