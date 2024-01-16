@@ -212,7 +212,7 @@
     background: url(img/Mountain.png), lightgray 50%;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #FF5400;
+    /* background-color: #FF5400; */
     width: 40vw;
     height: 80vh;
     margin: auto;
