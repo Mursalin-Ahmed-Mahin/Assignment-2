@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
   }
   @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900;1000&display=swap');
 
-  /* font-family: 'Mulish', sans-serif; */
+  
 
 
 
@@ -183,6 +184,10 @@
   padding-bottom: 2%;
 }
 
+.tours {
+  padding-left: 20px;
+}
+
 .listCl {
   margin-bottom: 3vh;
   color: rgba(19, 19, 24, 0.70);
@@ -221,6 +226,7 @@
     margin: 10vh auto;
   }
 
+
  /* Popular Tours */
 
 
@@ -238,8 +244,10 @@
   font-size: 50px;
   font-style: normal;
   font-weight: 800;
+  line-height: normal;
   padding-bottom: 20px;}
 
+  
 .yourInfo {
   color: rgba(19, 19, 24, 0.70);
   text-align: center;
@@ -403,6 +411,171 @@
 
 
 
+/* Why Choose Us Start */
+
+
+.whyUs {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+
+.whyUsTitel {
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-bottom: 30px;
+}
+
+.whyUsInfo {
+  color: rgba(19, 19, 24, 0.70);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 10px;}
+
+
+
+.card12 {
+  /* background-color: #FF5400; */
+  width: 86vw;
+  height: 35vh;
+  margin: auto;
+  display: flex;
+ 
+}
+.card1 {
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.20);
+  background: rgba(251, 181, 99, 0.05);
+  width: 42vw;
+  height: 35vh;
+}
+
+.handpickInfo {
+  padding-top: 6vh;
+  padding-left: 2vw;
+}
+
+.hotelimg  img{
+  height: 10vh;
+  width: 5vw;
+  margin-top: 3vh;
+  margin-left: 2vw;
+  
+}
+
+.handpickInfoH1 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 32px;;
+  font-weight: 800;
+  padding-bottom: 20px;
+  }
+
+  .handpickInfoH3 {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;}
+
+
+.card2 {
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.20);
+  background: rgba(41, 206, 246, 0.05);
+  width: 42vw;
+  height: 35vh;
+  padding-left: 20px;
+}
+
+.worldClass {
+  padding-top: 6vh;
+  padding-left: 2vw;
+}
+
+.mapImg  img{
+  height: 10vh;
+  width: 5vw;
+  margin-top: 3vh;
+  margin-left: 2vw;
+  
+}
+
+.worldClassH1 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 32px;;
+  font-weight: 800;
+  padding-bottom: 20px;
+  }
+
+  .worldClassH3 {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;}
+
+
+.card12 {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+
+.card3box {
+  width: 80vw;
+  height: 35vh;
+  margin: auto;
+  padding-top: 35px;
+}
+
+.card3 {
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.20);
+  background: rgba(233, 68, 68, 0.05);
+  width: 37vw;
+  height: 35vh;
+  margin: auto;
+}
+
+.bestPrice {
+  padding-top: 6vh;
+  padding-left: 2vw;
+}
+.priceImg  img{
+  height: 10vh;
+  width: 5vw;
+  margin-top: 3vh;
+  margin-left: 2vw;
+  
+  
+}
+
+.bestPriceH1 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 32px;;
+  font-weight: 800;
+  padding-bottom: 20px;
+  }
+
+  .bestPriceH3 {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;}
 
 
 
@@ -417,7 +590,7 @@
 
 
 
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 601px) {
     
     /* banner */
 
@@ -507,6 +680,11 @@
       height: 70%;
       margin: 10vh auto;
     }
+
+    .tours {
+      padding-left: 10px;
+    }
+
     .tourText {
       color: #131318;
       text-align: left;
@@ -515,12 +693,14 @@
       font-style: bold;
       font-weight: 800;
       
+      
     }
 
     .mountain {
     border-radius: 16px;
     width: 87vw;
     height: 40vh;
+    margin-top: 350px;
     
   }
 
@@ -529,6 +709,184 @@
     height: 90vh;
    
   }
+.card12{
+  /* background-color: #FF5400; */
+  width: 86vw;
+  height: 70vh;
+  flex-direction: column;
+  
+}
+.card1 {
+  width: 86vw;
+  height: 40vh;
+  margin-bottom: 20px;
+}
+
+.hotelimg img{
+  width: 84px;
+  height: 84px;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+.handpickInfoH1 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 32px;;
+  font-weight: 800;
+  padding-bottom: 20px;
+  }
+
+  .handpickInfoH3 {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;}
+
+.card2 {
+  width: 86vw;
+  height: 40vh;
+  margin-bottom: 20px;
+}
+
+.mapImg img{
+  width: 84px;
+  height: 84px;
+  padding-top: 10px;
+}
+
+.worldClassH1 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 32px;;
+  font-weight: 800;
+  padding-bottom: 20px;
+  }
+
+  .worldClassH3 {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;}
+
+.worldClass {
+  padding-top: 6vh;
+  padding-left: 1vw;
+}
+
+.card3box {
+  width: 86vw;
+  height: 70vh;
+  flex-direction: column;
+  margin-top: 48px;
+
+}
+
+.card3 {
+  width: 86vw;
+  height: 40vh;
+  margin-bottom: 20px;
+}
+
+.priceImg img{
+  width: 84px;
+  height: 74px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.bestPriceH1 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 32px;;
+  font-weight: 800;
+  padding-bottom: 20px;
+  }
+
+  .bestPriceH3 {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;}
+
+    .yourDestination {
+      color: #131318;
+      text-align: center;
+      font-family: Mulish;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 800;
+      padding-bottom: 20px;}
+    
+    
+    .yourInfo {
+      color: rgba(19, 19, 24, 0.70);
+      text-align: center;
+      font-family: Mulish;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 26px;
+      padding-bottom: 30px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* .desktopWhyUs {
+    display: none;
+  }
+
+  .mobileWhyUs {
+    display: block;
+  } */
+
+
+  
 }
 
 .desktop {
@@ -539,25 +897,7 @@
   display: block;
 }
 
-.yourDestination {
-  color: #131318;
-  text-align: center;
-  font-family: Mulish;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 800;
-  padding-bottom: 20px;}
-
-
-.yourInfo {
-  color: rgba(19, 19, 24, 0.70);
-  text-align: center;
-  font-family: Mulish;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 26px;
-  padding-bottom: 30px;
-}  
+  
 
 .maldives1 , .indonesia1 , .srilanka1, .northAmerica1 , .kashmir1 , .bangladesh1 , .bandarban1 {
   background-color: #FF5400;
@@ -611,18 +951,11 @@
     padding-top: 80px;
   }
 
+  /* Why chose us start */
 
 
 
-
-
-
-
-
-
-
-
-@media only screen and (min-width: 642px) {
+@media only screen and (min-width: 602px) {
   .mobile {
     display: none;
   }
@@ -630,4 +963,17 @@
   .desktop {
     display: block;
   }
+
+  
+/* .desktopWhyUs {
+  display: block;
+}
+
+.mobileWhyUs {
+  display: none;
+} */
+
+
+
+  
 }
