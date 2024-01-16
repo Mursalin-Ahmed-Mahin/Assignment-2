@@ -92,7 +92,7 @@
 .dropdownMenu {
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.30);
-  width: 70%;
+  width: 72vw;
   height: 15%;
   display: flex;
   justify-content: space-evenly;
@@ -116,9 +116,15 @@
 #findNow {
   background: #FF5400;
   color: #FFF;
-  padding: 18px 65px;
+  padding: 20px 45px;
+  white-space: nowrap;
 
 
+}
+
+.searchicon{
+  width: 1vw;
+  height: 2vh;
 }
 
   .cover {
@@ -628,7 +634,6 @@
 .blank1 {
   width: 70vw;
   height: 60vh;
-  ?
   margin: auto;
   display: flex;
   }
@@ -669,8 +674,8 @@
 }
 
 .iconsAndText {
-  padding-left: 30px;
-  padding-top: 50px;
+  padding-left: 2vw;
+  padding-top: 4vh;
   display: flex;
   justify-content: space-evenly;
   justify-content: flex-start;
@@ -682,8 +687,8 @@
   font-family: Mulish;
   font-size: 24px;
   font-weight: 800;
-  padding-left: 50px;
-  padding-top: 50px;
+  padding-left: 3vw;
+  padding-top: 4vh;
   
 }
 .tourToSatoriniinfo {
@@ -694,8 +699,8 @@
   font-weight: 400;
   line-height: 26px;
   width: 50%;
-  padding-left: 50px;
-  padding-top: 30px;
+  padding-left: 3.5vw;
+  padding-top: 3vh;
 }
 .Price2 {
   color: #FF5400;
@@ -705,8 +710,8 @@
   font-weight: 800;
   line-height: normal;
   width: 50%;
-  padding-left: 50px;
-  padding-top: 30px;
+  padding-left: 3.5vw;
+  padding-top: 3vh;
 }
 
 .booknowbtn {
@@ -719,8 +724,9 @@
   border-radius: 5px;
   }
   .booknowbtnDiv {
-    padding-left: 50px;
-    padding-top: 20px;
+    padding-left: 3.5vw;
+    padding-top: 3vh;
+    margin: auto;
   }
 
 
@@ -742,7 +748,6 @@
 .blank2 {
   width: 70vw;
   height: 60vh;
-  ?
   margin: auto;
   display: flex;
   }
@@ -783,7 +788,6 @@
 .blank3 {
   width: 70vw;
   height: 60vh;
-  ?
   margin: auto;
   display: flex;
   }
@@ -803,6 +807,26 @@
   border: 2px solid #FFF;
   background: rgba(255, 255, 255, 0.80);
   backdrop-filter: blur(2.5px);
+}
+
+
+.booknowbtnDiv2 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh; /* Adjust as needed based on your layout */
+}
+
+/* Rest of your existing button styles */
+.booknowbtn2 {
+  background-color: #FF5400;
+  color: #fff;
+  padding: 15px 65px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
 }
     
     /* Deals & Discounts End */
@@ -874,9 +898,15 @@
     #findNow {
       background: #FF5400;
       color: #FFF;
-      padding: 4vw 12vh;
+      white-space: nowrap;
+      /* padding: 5vw 10vh; */
     
     
+    }
+
+    .searchicon{
+      width: 3vw;
+      height: 2vh;
     }
 
 
@@ -928,7 +958,7 @@
     border-radius: 16px;
     width: 87vw;
     height: 40vh;
-    margin-top: 350px;
+    margin-top: 10vh;
     
   }
 
@@ -976,7 +1006,7 @@
 .card1 {
   width: 86vw;
   height: 40vh;
-  margin-bottom: 20px;
+  margin-bottom: 5vh;
 }
 
 .hotelimg img{
@@ -1004,7 +1034,7 @@
 .card2 {
   width: 86vw;
   height: 40vh;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .mapImg img{
@@ -1029,7 +1059,7 @@
     line-height: 24px;}
 
 .worldClass {
-  padding-top: 6vh;
+  padding-top: 1vh;
   padding-left: 1vw;
 }
 
@@ -1037,13 +1067,14 @@
   width: 86vw;
   height: 70vh;
   flex-direction: column;
-  margin-top: 48px;
+  padding-top:  5vh;
 
 }
 
 .card3 {
   width: 86vw;
   height: 40vh;
+  margin-top: 5vh;
   margin-bottom: 20px;
 }
 
@@ -1137,6 +1168,210 @@
 
 /* ============================ */
 
+.desktopTour {
+  display: none;
+}
+
+.mobileTour {
+  display: block;
+}
+
+.mobileDiv {
+  background-color: #FF5400;
+  width: 86vw;
+  height: 80vh;
+  background-image: url(img/discount\ 1\ and\ 3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  background-position-x: 53%;
+  border-radius: 16px;
+  margin-top: 40vh;
+}
+.mobileBlank{
+  /* background-color: #FF5400 ; */
+  width: 74vw;
+  height: 20vh;
+  margin: auto;
+}
+.mobileinfo {
+  border-radius: 16px;
+  border: 2px solid #FFF;
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(2.5px);
+  width: 74vw;
+  height: 50vh;
+  margin: auto;
+  margin-top: 7vh;
+
+}
+
+.dayNight1 img,
+.max1 img,
+.location1 img {
+  
+  width: 18px;
+  height: 18px;
+  
+}
+
+.dayNight1,
+.max1,
+.location1 {
+  font-size: 16px;
+  /* display: flex;
+  align-items: center; */
+  padding: 0px 20px;
+  
+}
+
+.dayNight1 {
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+.iconsAndText {
+  padding-left: 0;
+  padding-top: 2vh;
+  display: flex;
+  /* justify-content: space-evenly;
+  justify-content: flex-start; */
+
+}
+.mobileSato {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  padding-left: 5vw;
+  padding-top: 3vh;
+}
+
+.mobilesatoinfo {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  padding-left: 5vw;
+  padding-top: 2vh;}
+
+.mobilePrice {
+  color: #FF5400;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-left: 5vw;
+  padding-top: 2vh;
+}
+
+.booknowbtnDiv {
+  padding-left: 3.5vw;
+  padding-top: 3vh;
+}
+.booknowbtn {
+  background-color: #FF5400;
+  color: #fff;
+  padding: 10px 25px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  }
+
+  .mobileDiv2 {
+    background-color: #FF5400;
+    width: 86vw;
+    height: 80vh;
+    background-image: url(img/discount\ 2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    background-position-x: 53%;
+    border-radius: 16px;
+    margin-top: 5vh;
+  }
+
+  .mobileDiv3 {
+    background-color: #FF5400;
+    width: 86vw;
+    height: 80vh;
+    background-image: url(img/discount\ 1\ and\ 3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    background-position-x: 53%;
+    border-radius: 16px;
+    margin-top: 5vh;
+  }
+
+
+  .desktop {
+    display: none;
+  }
+  
+  .mobile {
+    display: block;
+  }
+  
+    
+  
+  .maldives1 , .indonesia1 , .srilanka1, .northAmerica1 , .kashmir1 , .bangladesh1 , .bandarban1 {
+    background-color: #FF5400;
+    width: 86vw;
+    height: 25vh;
+    border-radius: 16px;margin: auto;
+    margin-bottom: 20px;
+    
+  }
+  
+  .maldives1 {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('img/NorthAmerica.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    ;
+  }
+  
+  .indonesia1 {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(img/Indonesia.png);
+    background-repeat: no-repeat;
+    background-size: cover;}
+  .srilanka1 {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(img/Srilanka.png);
+    background-repeat: no-repeat;
+    background-size: cover;}
+  .northAmerica1 {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(img/NorthAmerica.png);
+    background-repeat: no-repeat;
+    background-size: cover;}
+  .kashmir1 {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(img/Kashmir.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 90%;
+  }
+  .bangladesh1 {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(img/Bangladesh.png);
+    background-repeat: no-repeat;
+    background-size: cover;}
+  .bandarban1 {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(img/Bandarban.png);
+    background-repeat: no-repeat;
+    background-size: cover;}
+  
+    .maldivesTitel1 , .indonesiaTitel1 , .srilankaTitel1, .northAmericaTitel1 , .kashmirTitel1 , .bangladeshTitel1 , .bandarbanTitel1 {
+      color: #FFF;
+      text-align: center;
+      font-family: Mulish;
+      font-size: 15px;
+      font-weight: 700;
+      padding-top: 80px;
+    }
+  
+
 
 
 
@@ -1204,67 +1439,6 @@
   
 }
 
-.desktop {
-  display: none;
-}
-
-.mobile {
-  display: block;
-}
-
-  
-
-.maldives1 , .indonesia1 , .srilanka1, .northAmerica1 , .kashmir1 , .bangladesh1 , .bandarban1 {
-  background-color: #FF5400;
-  width: 86vw;
-  height: 25vh;
-  border-radius: 16px;margin: auto;
-  margin-bottom: 20px;
-  
-}
-
-.maldives1 {
-  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('img/NorthAmerica.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  ;
-}
-
-.indonesia1 {
-  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(img/Indonesia.png);
-  background-repeat: no-repeat;
-  background-size: cover;}
-.srilanka1 {
-  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(img/Srilanka.png);
-  background-repeat: no-repeat;
-  background-size: cover;}
-.northAmerica1 {
-  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(img/NorthAmerica.png);
-  background-repeat: no-repeat;
-  background-size: cover;}
-.kashmir1 {
-  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(img/Kashmir.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y: 90%;
-}
-.bangladesh1 {
-  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(img/Bangladesh.png);
-  background-repeat: no-repeat;
-  background-size: cover;}
-.bandarban1 {
-  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(img/Bandarban.png);
-  background-repeat: no-repeat;
-  background-size: cover;}
-
-  .maldivesTitel1 , .indonesiaTitel1 , .srilankaTitel1, .northAmericaTitel1 , .kashmirTitel1 , .bangladeshTitel1 , .bandarbanTitel1 {
-    color: #FFF;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 15px;
-    font-weight: 700;
-    padding-top: 80px;
-  }
 
   /* Why chose us start */
 
@@ -1280,13 +1454,13 @@
   }
 
   
-/* .desktopWhyUs {
-  display: block;
-}
-
-.mobileWhyUs {
-  display: none;
-} */
+  .desktopTour {
+    display: block;
+  }
+  
+  .mobileTour {
+    display: none;
+  }
 
 
 
