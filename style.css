@@ -7,63 +7,55 @@
   @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900;1000&display=swap');
 
   
+.navbar {
+  
+  width: 85vw;
+  height: 15vh;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
 
+}
 
+.navIconTitel {
+  
+  width: 15vw;
+  height: auto;
+  padding-top: 5vh;
+}
 
-  /* navbar start */
+.navIconTitel {
+  display: flex;
+  align-items: center;
+  padding-right: 44vw;
+  gap: 10px; 
+  width: 10vw;
+  margin: auto;
+  padding-bottom: 5vh;
+}
 
-  header {
-    /* position: fixed; */
-    top: 0; left: 0; right: 0;
-    /* background: rebeccapurple; */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 50px;
-    width: 85vw;
-   
+.navIcon {
+  width: 50px; 
+  height: 50px; 
+}
+
+.navNAme {
+  font-size: 35px; 
+}
+
+.navMenu {
+  
+  display: flex;
+  width: 40vw;
+  justify-content: space-evenly;
+  justify-content: flex-end;
+  gap: 4vw;padding-top: 6vh;
   }
-  .titel{
-    font-family: Mulish;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
+.homeRed {
+  color: #FF5400;
+}
 
-  }
-
-
-
-
-  .label {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 85vw;
-  }
-
-  .logo {
-    align-items: first baseline;
-  }
-
-  .traveler {color: #FF5400;}
-
-  header .navbar ul {
-    list-style: none;
-
-  }
-
-  header .navbar ul li {
-    position: relative;
-    float: left;
-  }
-
-  header .navbar ul .listItems{
-    font-size: 20px;
-    padding: 20px;
-    color: #424247;
-    display: block;      
-  }
+  
   
   /* Cover img  */
 
@@ -168,6 +160,7 @@
    
     padding: 10px;
     text-align: left;
+    margin-top: -20px;
 }
 .readMore {
   background-color: #FF5400;
@@ -177,6 +170,7 @@
   border-radius: 5px;
   font-size: 24px;
   cursor: pointer;
+  
  }
  
  .tourText {
@@ -203,10 +197,10 @@
   line-height: 26px;
 }
 .listHead {
-  margin-bottom: 3vh; 
+  margin-bottom: 2vh; 
 }
 .listEnd {
-  margin-bottom: 3vh; 
+  margin-bottom: vh; 
 }
 
 
@@ -475,6 +469,7 @@
   width: 5vw;
   margin-top: 3vh;
   margin-left: 2vw;
+  margin-bottom: -1vh;
   
 }
 
@@ -483,7 +478,7 @@
   font-family: Mulish;
   font-size: 32px;;
   font-weight: 800;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   }
 
   .handpickInfoH3 {
@@ -491,7 +486,8 @@
     font-family: Mulish;
     font-size: 20px;
     font-weight: 400;
-    line-height: 24px;}
+    line-height: 24px;
+  }
 
 
 .card2 {
@@ -513,6 +509,7 @@
   width: 5vw;
   margin-top: 3vh;
   margin-left: 2vw;
+  margin-bottom: -1vh;
   
 }
 
@@ -521,7 +518,7 @@
   font-family: Mulish;
   font-size: 32px;;
   font-weight: 800;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   }
 
   .worldClassH3 {
@@ -564,6 +561,7 @@
   width: 5vw;
   margin-top: 3vh;
   margin-left: 2vw;
+  margin-bottom: -1vh;
   
   
 }
@@ -573,7 +571,7 @@
   font-family: Mulish;
   font-size: 32px;;
   font-weight: 800;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   }
 
   .bestPriceH3 {
@@ -869,11 +867,11 @@
 .simpleH1 {
   color: #131318;
   font-family: Mulish;
-  font-size: 40px;
+  font-size: 50px;
   font-style: normal;
   font-weight: 800;
   line-height: 60px;
-  padding-top: 10vh;
+  padding-bottom: 5vh;
   
 }
 .simpleH3 {
@@ -898,7 +896,7 @@
   }
   .button1 {
    
-    padding-top: 5vh;
+    padding-top: 10vh;
     text-align: left;
 }
 .readMore {
@@ -1044,6 +1042,73 @@ input,
 
 
 
+/* footer Start  */
+
+.footerDiv {
+  background: rgba(19, 19, 24, 0.05);
+  width: 100vw;
+  height: 50vh;
+  margin-top: 10vh;
+}
+
+.footerhead {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  width: 10vw;
+  margin: auto;
+  padding-top: 8vh;
+}
+
+.footerIcon {
+  width: 50px; 
+  height: 50px; 
+}
+
+.footerNAme {
+  font-size: 35px; 
+}
+
+.footerdes {
+  text-align: center;
+  padding-top: 2vh;
+  color: #5A5A5D;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; 
+}
+
+.icons img{
+  width: 10vw;
+  display: flex;
+  padding-top: 4vh;
+  margin: auto;
+}
+
+.footerline {
+  width: 60%;
+  height: 2px;
+  background: rgba(19, 19, 24, 0.10);
+  margin: auto;
+  margin-bottom: 3%;
+  margin-top: 05vh;
+}
+
+.footerright {
+  width: 10vw;
+  height: 5vh;
+  margin: auto;
+  margin-bottom: -50vh;
+  white-space: nowrap
+}
+
+/* footer end  */
+
+
+
 
 
 
@@ -1055,6 +1120,25 @@ input,
 
 
   @media screen and (max-width: 601px) {
+
+    .navMenu {
+      display: none;
+    }
+
+    .menuBar img{
+      width: 50px;
+      height: 50px;
+      margin-top: 22px;
+    }
+    .navbar {
+      display: flex;
+      align-items: center;
+    }
+
+    .navIconTitel {
+      margin-left: 0px;
+      
+    }
     
     /* banner */
 
@@ -1146,7 +1230,7 @@ input,
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      width: 87vw;
+      width: 86vw;
       height: 70%;
       margin: 10vh auto;
     }
@@ -1168,14 +1252,14 @@ input,
 
     .mountain {
     border-radius: 16px;
-    width: 87vw;
+    width: 86vw;
     height: 40vh;
     margin-top: 10vh;
     
   }
 
   .popular {
-    width: 87vw;
+    width: 86vw;
     height: 90vh;
    
   }
@@ -1603,6 +1687,40 @@ input,
     width: 86vw;
     height: auto;
   }
+
+  .simpleH1 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+    padding-top: 5vh;
+    
+  }
+  .simpleH3 {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 2vh;
+  }
+
+
+  .simplelist {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    padding-top: 5vh;
+    padding-left: 4vw;
+  }
+
+
    .imgVid {
     width: 86vw;
     height: 50vh;
@@ -1663,7 +1781,7 @@ input,
   
 }
 
-.travelText {
+/* .travelText {
   color: #FFF;
   font-family: Mulish;
   font-size: 100%;
@@ -1686,7 +1804,37 @@ input,
   padding-left: 25%;
   margin-top: 50%;
   
-  margin: auto;}
+  margin: auto;} */
+
+
+  .travelDiv {
+    position: a;
+    text-align: center; /* Center the text within the container */
+  }
+  
+  .travelText {
+    position: relative;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 100%;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    left: -10%; 
+    top: 4%; 
+  }
+  
+  .percent {
+    position: relative;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 100%;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    left: 5%; 
+    top: 10%; 
+  }
 
 
 
@@ -1699,7 +1847,93 @@ input,
 
 
 
-  /* News letter Start */
+  /* News letter end */
+
+  /* footer Staer */
+
+.footerDiv {
+  background: rgba(19, 19, 24, 0.05);
+  width: 100vw;
+  height: 70vh;
+}
+
+
+.footerDiv {
+  background: rgba(19, 19, 24, 0.05);
+  width: 100vw;
+  height: 50vh;
+  margin-top: 10vh;
+}
+
+.footerhead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; 
+  margin: auto;
+  padding-top: 4vh;
+  margin-bottom: 3%;
+}
+
+.footerIcon {
+  width: 30px; 
+  height: 30px; 
+}
+
+.footerNAme {
+  font-size: 25px; 
+}
+
+.footerdes {
+  text-align: center;
+  padding-top: 2vh;
+  color: #5A5A5D;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; 
+  margin-bottom: 3%;
+}
+
+.icons img{
+  width: 50vw;
+  display: flex;
+  padding-top: 4vh;
+  margin: auto;
+}
+
+.footerline {
+  width: 90%;
+  height: 2px;
+  background: rgba(19, 19, 24, 0.10);
+  margin: auto;
+  margin-bottom: 3%;
+  margin-top: 05vh;
+}
+
+.footerright {
+  width: 40vw;
+  height: 5vh;
+  margin: auto;
+  margin-bottom: -50vh;
+  white-space: nowrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* footer End */
 
 
 
@@ -1753,6 +1987,9 @@ input,
     display: none;
   }
 
+  .menuBar {
+    display: none;
+  }
 
 
   
