@@ -715,6 +715,7 @@
   width: 50%;
   padding-left: 3.5vw;
   padding-top: 3vh;
+  white-space: nowrap;
 }
 
 .booknowbtn {
@@ -847,6 +848,8 @@
     height: 63vh;
     margin: auto;
     display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
   }
 .simplePerfect {
   
@@ -916,6 +919,127 @@
 
 
     /* A Simple Perfect Place To Get Lost end  */
+
+    /* Newsletter start */
+
+    .newsletterImg {
+      width: 86vw;
+      height: 65vh;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 15vh;
+    }
+.newsletter {
+  width: 35vw;
+  height: 65vh;
+  border: 1px solid #FF5400;
+  border-radius: 16px;
+}
+.imgEffect {
+  background-image: url(img/lake.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 50vw;
+  height: 65vh;
+  border-radius: 16px;
+}
+
+
+.line {
+  width: 70%;
+  height: 2px;
+  background-color: rgba(19, 19, 24, 0.10);
+  margin: auto;
+  margin-bottom: 10%;
+}
+
+
+
+.subscribeform {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  max-width: 70%;
+  margin: auto;
+  
+}
+
+
+
+input,
+.newsBtn {
+  padding: 14px 30px;
+  margin-bottom: 8%;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);border-radius: 5px;
+  width: 100%;
+  border: none;
+}
+
+.newsBtn {
+  background-color: #FF5400;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  cursor: pointer;
+
+}
+
+.newsletterh1,
+.newsletterh3 {
+  padding-left: 15%;
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+
+
+
+
+.travelDiv {
+  background-color: #FF5400;
+  width: 35%;
+  height: 20%;
+  border-radius: 8px;
+  transform: scale(.05 .05);
+  transform: rotate(-35deg);
+  margin-left:65% ;
+  margin-top: 41%;
+  padding-top: 4%;
+  white-space: nowrap
+  
+}
+
+.travelText {
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 3vh;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-top:40%;
+  padding-left: 35%;
+  
+  
+  
+}
+.percent {
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 4vh;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-left: 15%;
+  
+  
+  }
+
+    /* Newsletter end */
 
 
 
@@ -1504,6 +1628,78 @@
   
   
   /* A Simple Perfect Place To Get Lost ENd */
+
+  /* News letter end */
+
+.newsletterImg {
+  flex-direction: column;
+  width: 86vw; 
+  height: auto;
+  margin-top: -10vh;
+}
+
+.newsletter {
+  width: 86vw;
+  height: 92%;
+  margin-bottom: 10vh;
+}
+
+.imgEffect {
+  width: 86vw;
+  height: 40vh;
+}
+
+.travelDiv {
+  background-color: #FF5400;
+  width: 50%;
+  height: 25%;
+  border-radius: 8px;
+  transform: scale(.25 .5);
+  transform: rotate(-35deg);
+  margin-left:48% ;
+  margin-top: 50%;
+  padding-top: 4%;
+  white-space: nowrap
+  
+}
+
+.travelText {
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 100%;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-top:40%;
+  padding-left: 30%;
+  margin-top: 50%;
+  
+  margin: auto;
+}
+.percent {
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 100%;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-left: 25%;
+  margin-top: 50%;
+  
+  margin: auto;}
+
+
+
+
+
+
+
+
+
+
+
+
+  /* News letter Start */
 
 
 
